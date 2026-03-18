@@ -1,0 +1,6 @@
+# Nginx config (server-specific)
+nginx_mebel.conf
+
+# OS files
+.DS_Store
+Thumbs.db
