@@ -673,3 +673,23 @@ a {
 @media (min-width: 1000px) {
     .reviews__grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* ===== FOOTER NAV / PARTNER ===== */
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(197, 165, 90, 0.25);
+}
+.footer__nav a {
+    color: var(--gold-light);
+    text-decoration: none;
+    font-size: .9rem;
+    font-family: 'Inter', sans-serif;
+}
+.footer__nav a:hover { color: var(--gold); text-decoration: underline; }
+.footer__partner { font-size: .9rem; margin-bottom: .5rem; opacity: .92; }
+.footer__partner a { color: var(--gold-light); font-weight: 600; }
